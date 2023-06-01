@@ -1,0 +1,108 @@
+#most-viewed {
+    padding: 70px 0;
+    background: url(https://cdn.shopify.com/s/files/1/0162/3932/9344/files/3.jpg?v=1613751744) no-repeat center / cover;
+    .most-viewed-head {
+        margin-bottom: 50px;
+        text-align: center;
+        h2 {
+            span {
+                font-weight: 300;
+            }
+            margin: -25px 0 0 0;
+            padding: 0;
+            font-size: 40px;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 600;
+        }
+    }
+    .most-viewed-items {
+        margin-bottom: 20px;
+        position: relative;
+        border: 1px solid rgb(228, 226, 226);
+        background-color: #F7F5F3;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        &:hover {
+            border: 1px solid #fff;
+            box-shadow: 3px 3px 10px rgb(216, 216, 216);
+        }
+        &:hover .most-viewed-icon {
+            opacity: 1;
+        }
+        .most-viewed-img {
+            width: 40%;
+            img {
+                width: 100%;
+                border-top-left-radius: 20px;
+                border-bottom-left-radius: 20px;
+            }
+        }
+        .most-viewed-text {
+            width: 60%;
+            .most-viewed-star {
+                margin-top: 20px;
+                i {
+                    color: #78A206;
+                }
+            }
+            p {
+                font-family: 'Oswald', sans-serif;
+                font-weight: 600;
+            }
+            h5 {
+                margin-top: 20px;
+                color: #78A206;
+                font-family: 'Oswald', sans-serif;
+                font-weight: 600;
+                font-size: 17px;
+                span {
+                    color: gray;
+                    margin-left: 10px;
+                }
+            }
+        }
+        .most-viewed-icon {
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            opacity: 0;
+            i {
+                width: 45px;
+                height: 45px;
+                background-color: #fff;
+                color: black;
+                text-align: center;
+                line-height: 45px;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                transition: 0.5s;
+                -webkit-transition: 0.5s;
+                -moz-transition: 0.5s;
+                -ms-transition: 0.5s;
+                -o-transition: 0.5s;
+                &:hover {
+                    background-color: #78A206;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,406 @@
+#dealOfTheDays {
+    background: url(https://cdn.shopify.com/s/files/1/0162/3932/9344/files/3.jpg?v=1613751744) no-repeat center / cover;
+    padding: 70px 0;
+    position: relative;
+    &:hover .dealOfTheDays-arrow-icon {
+        opacity: 1;
+    }
+    .featured-head {
+        text-align: center;
+        h2 {
+            span {
+                font-weight: 300;
+            }
+            margin: -25px 0 0 0;
+            padding: 0;
+            font-size: 40px;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 600;
+        }
+    }
+    .dealOfTheDays-arrow-icon {
+        position: absolute;
+        bottom: 35%;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        transform: translateY(50%);
+        -webkit-transform: translateY(50%);
+        -moz-transform: translateY(50%);
+        -ms-transform: translateY(50%);
+        -o-transform: translateY(50%);
+        opacity: 0;
+        i {
+            width: 50px;
+            height: 50px;
+            border: 3px solid rgb(216, 210, 210);
+            margin: 30px;
+            text-align: center;
+            line-height: 50px;
+            font-size: 20px;
+            box-shadow: transparent;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            &:hover {
+                border: 3px solid #fff;
+                box-shadow: 3px 3px 10px gray;
+                background-color: #fff;
+            }
+        }
+        
+    }   
+    .dealOfTheDays-main {
+        margin-top: 50px;
+        .dealOfThdDays-items {
+            text-align: center;
+            border: 1px solid rgb(218, 218, 226);
+            background-color: #ffffff34;
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+            position: relative;
+            box-shadow: transparent;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            .dealOfTheDays-icon {
+                position: absolute;
+                top: 35%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                -webkit-transform: translate(-50%, -50%);
+                -moz-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                -o-transform: translate(-50%, -50%);
+                z-index: 99;
+                opacity: 0;
+                i {
+                   font-size: 20px;
+                   width: 50px;
+                   height: 50px;
+                   background-color: #fff;
+                   margin: 5px;
+                   text-align: center;
+                   line-height: 50px;
+                   border-radius: 50%;
+                   -webkit-border-radius: 50%;
+                   -moz-border-radius: 50%;
+                   -ms-border-radius: 50%;
+                   -o-border-radius: 50%;
+                   transition: 0.5s;
+                   -webkit-transition: 0.5s;
+                   -moz-transition: 0.5s;
+                   -ms-transition: 0.5s;
+                   -o-transition: 0.5s;
+                   &:hover {
+                    background-color: #78A206;
+                    color: #fff;
+                   }
+                }
+                transition: 0.5s;
+                -webkit-transition: 0.5s;
+                -moz-transition: 0.5s;
+                -ms-transition: 0.5s;
+                -o-transition: 0.5s;
+            }
+            .dealOfTheDays-inner {
+                position: relative;
+                &::after {
+                    position: absolute;
+                    content: '';
+                    width: 100%;
+                    height: 100%;
+                    background-color: #ffffff6e;
+                    top: 0;
+                    left: 0;
+                    border-radius: 20px;
+                    -webkit-border-radius: 20px;
+                    -moz-border-radius: 20px;
+                    -ms-border-radius: 20px;
+                    -o-border-radius: 20px;
+                    transition: 0.5s;
+                    -webkit-transition: 0.5s;
+                    -moz-transition: 0.5s;
+                    -ms-transition: 0.5s;
+                    -o-transition: 0.5s;
+                    opacity: 1;
+                }
+                img {
+                    width: 100%;
+                    border-radius: 20px;
+                    -webkit-border-radius: 20px;
+                    -moz-border-radius: 20px;
+                    -ms-border-radius: 20px;
+                    -o-border-radius: 20px;
+                }
+            }
+            .dealOfTheDays-counter {
+                position: absolute;
+                width: 100%;
+                top: 60%;
+                left: 50%;
+                text-align: center;
+                opacity: 0;
+                transition: 0.5s;
+                -webkit-transition: 0.5s;
+                -moz-transition: 0.5s;
+                -ms-transition: 0.5s;
+                -o-transition: 0.5s;
+                transform: translate(-50%, -50%);
+                -webkit-transform: translate(-50%, -50%);
+                -moz-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                -o-transform: translate(-50%, -50%);
+                h3 {
+                    display: inline-block;
+                    text-align: center;
+                    font-size: 18px;
+                    background-color: #fff;
+                    width: 60px;
+                    height: 60px;
+                    margin: 2px;
+                    padding-top: 4px;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                    p {
+                        margin: 0;
+                        padding: 0;
+                    }
+                }
+            }
+            .star {
+                text-align: center;
+                i {
+                    color: #78A206;
+                }
+            }
+            h4 {
+                font-family: 'Oswald', sans-serif;
+                font-weight: 500;
+                color: black;
+                font-size: 25px;
+            }
+            h5 {
+                font-family: 'Oswald', sans-serif;
+                font-weight: 600;
+                color: #78A206;
+                margin: 50px 0;
+                transition: 0.5s;
+                -webkit-transition: 0.5s;
+                -moz-transition: 0.5s;
+                -ms-transition: 0.5s;
+                -o-transition: 0.5s;
+                span {
+                    color: gray;
+                    margin-left: 20px;
+                    font-weight: 400;
+                }
+            }
+            .dealOfTheDays-btn {
+                position: absolute;
+                left: 50%;
+                bottom: 70px;
+                transform: translateX(-50%);
+                -webkit-transform: translateX(-50%);
+                -moz-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                -o-transform: translateX(-50%);
+                transition: 0.5s;
+                -webkit-transition: 0.5s;
+                -moz-transition: 0.5s;
+                -ms-transition: 0.5s;
+                -o-transition: 0.5s;
+                opacity: 0;
+                p {
+                    background-color: #fff;
+                    color: black;
+                    font-family: 'Oswald', sans-serif;
+                    font-weight: 600;
+                    font-size: 12px;
+                    padding: 10px 30px;
+                    text-transform: uppercase;
+                    display: inline-block;
+                    border: 1px solid #e9ebe5;
+                    border-radius: 40px;
+                    -webkit-border-radius: 40px;
+                    -moz-border-radius: 40px;
+                    -ms-border-radius: 40px;
+                    -o-border-radius: 40px;
+                    transition: 0.5s;
+                    -webkit-transition: 0.5s;
+                    -moz-transition: 0.5s;
+                    -ms-transition: 0.5s;
+                    -o-transition: 0.5s;
+                    &:hover {
+                        background-color: #78A206;
+                        color: #fff;
+                        border: 1px solid transparent;
+                    }
+                }
+            }
+            &:hover {
+                box-shadow: 3px 3px 10px gainsboro;
+                background-color: transparent;
+            }
+            &:hover .dealOfTheDays-inner::after {
+                opacity: 0;
+            }
+            &:hover .dealOfTheDays-icon {
+                opacity: 1;
+                top: 30%;
+                transform: translate(-50%, -50%);
+                -webkit-transform: translate(-50%, -50%);
+                -moz-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                -o-transform: translate(-50%, -50%);
+            }
+            &:hover .dealOfTheDays-counter {
+                top: 55%;
+                opacity: 1;
+            }
+            &:hover .dealOfTheDays-btn {
+                bottom: 30px;
+                opacity: 1;
+            }
+            &:hover h5 {
+                opacity: 0;
+            }
+        }
+    }
+    .slick-center .dealOfThdDays-items{
+        background-color: transparent !important;
+        box-shadow: 3px 3px 10px gainsboro !important;
+        border: 2px solid #fff;
+    } 
+    .slick-center .dealOfTheDays-inner::after{
+        opacity: 0 !important;
+    }
+    .slick-center .dealOfTheDays-counter {
+        top: 55% !important;
+        opacity: 1 !important;
+    }
+}
+
+
+
+
+.products-view {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 900px;
+    height: 500px;
+    background: linear-gradient(45deg, #78a2064b, #07eecf25, #78a2064b);
+    backdrop-filter: blur(20px);
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    visibility: hidden;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    .products-img {
+        width: calc(50% - 30px);
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+        }
+    }
+    .products-description {
+        width: calc(50% - 30px);
+        padding: 30px 0 0 0;
+        .quiantity {
+            width: 70px;
+            border: 1px solid gray;
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 8px;
+            border-radius: 6px;
+            -webkit-border-radius: 6px;
+            -moz-border-radius: 6px;
+            -ms-border-radius: 6px;
+            -o-border-radius: 6px;
+            margin-top: 30px;
+        }
+        h3 {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 500;
+        }
+        h4 {
+            color: #f010ad;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 500;
+            margin: 10px 0 30px 0;
+            span {
+                color: gray;
+                margin-left: 20px;
+            }
+        }
+        p {
+            font-family: 'Raleway', sans-serif;
+            font-weight: 400;
+            text-align: justify;
+            color: black;
+        }
+        a {
+            text-decoration: none;
+            background-color: #78A206;
+            color: #fff;
+            padding: 10px 20px;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 400;
+            display: inline-block;
+            margin-top: 40px;
+            border-radius: 40px;
+            -webkit-border-radius: 40px;
+            -moz-border-radius: 40px;
+            -ms-border-radius: 40px;
+            -o-border-radius: 40px;
+        }
+    }
+    .product-close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 40px;
+        height: 40px;
+        background-color: #05165e;
+        color: #fff;
+        font-size: 20px;
+        text-align: center;
+        line-height: 40px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+}
+
+

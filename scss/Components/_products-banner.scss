@@ -1,0 +1,18 @@
+
+#products-banner {
+    padding: 250px 0 200px 0;
+    background: url(https://cdn.shopify.com/s/files/1/0162/3932/9344/files/12.jpg?v=1546514411) no-repeat center / cover;
+    .products-banner-head {
+        text-align: center;
+        h1 {
+            text-transform: uppercase;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 600;
+        }
+        p {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 500;
+            font-size: 25px;
+        }
+    }
+}

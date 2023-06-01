@@ -1,0 +1,108 @@
+#feedback {
+    padding: 70px 0;
+    &:hover .feedback-icon {
+        opacity: 1;
+    }
+    .feadback-main {
+        position: relative;
+    }
+    .feedback-icon {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        z-index: 999;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        opacity: 0;
+        i {
+            font-size: 20px;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            border: 2px solid gray;
+            color: gray;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            &:hover {
+                border: 2px solid #fff;
+                box-shadow: 3px 3px 10px gray;
+            }
+        }
+    }
+    .feedback-text {
+        text-align: center;
+        i {
+            font-size: 80px;
+            color: gray;
+        }
+        p {
+            font-family: 'Raleway', sans-serif;
+            font-weight: 500;
+            padding: 10px 100px;
+            line-height: 35px;
+        }
+    }
+    .feedback-profile {
+        height: 150px;
+        max-width: 400px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .feedback-img {
+            text-align: center !important;
+            position: relative;
+            &::after {
+                position: absolute;
+                content: '';
+                width: 100%;
+                height: 100%;
+                background-color: #ffffff96;
+                top: 0;
+                left: 0;
+            }
+            img {
+                display: inline-block;
+                padding: 20px 0;
+            }
+            h4 {
+                font-family: 'Oswald', sans-serif;
+                font-weight: 500;
+                opacity: 0;
+            }
+        }
+    }
+    .slick-center .feedback-img::after {
+        background-color: transparent;
+    }
+    .slick-center img {
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+    }
+    .slick-center .feedback-img h4 {
+        opacity: 1;
+    }
+}

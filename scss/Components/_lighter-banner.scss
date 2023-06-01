@@ -1,0 +1,20 @@
+#lighter-banner {
+    padding: 250px 0 200px 0;
+    margin-bottom: 30px;
+    background: url(../images/lighter-banner.jpg) no-repeat center / cover;
+    .lighter-banner-head {
+        text-align: center;
+        h1 {
+            text-transform: uppercase;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 600;
+            color: black;
+        }
+        p {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 500;
+            font-size: 25px;
+            color: black;
+        }
+    }
+}
